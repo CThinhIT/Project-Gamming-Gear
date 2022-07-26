@@ -1,0 +1,46 @@
+[id='toggle-heart'],
+[id='toggle-heart2'], 
+[id='toggle-heart3'], 
+[id='toggle-heart4'], 
+[id='toggle-heart5'], 
+[id='toggle-heart6'], 
+[id='toggle-heart7'], 
+[id='toggle-heart8']{
+    position: absolute;
+    left: -100vw;
+    margin-top:3px;
+}
+
+[for='toggle-heart'],
+[for='toggle-heart2'],
+[for='toggle-heart3'],
+[for='toggle-heart4'],
+[for='toggle-heart5'],
+[for='toggle-heart6'],
+[for='toggle-heart7'],
+[for='toggle-heart8']
+{
+     color: white;
+}
+
+[id='toggle-heart']:checked + label,
+[id='toggle-heart2']:checked + label,
+[id='toggle-heart3']:checked + label,
+[id='toggle-heart4']:checked + label,
+[id='toggle-heart5']:checked + label,
+[id='toggle-heart6']:checked + label,
+[id='toggle-heart7']:checked + label,
+[id='toggle-heart8']:checked + label{
+    color: #e2264d;
+}
+
+[for='toggle-heart'],
+[for='toggle-heart2'],
+[for='toggle-heart3'],
+[for='toggle-heart4'],
+[for='toggle-heart5'],
+[for='toggle-heart6'],
+[for='toggle-heart7'],
+[for='toggle-heart8']{
+    cursor: pointer;
+}

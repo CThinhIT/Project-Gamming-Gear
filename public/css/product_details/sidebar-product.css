@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+body{
+    position: relative;
+    min-height: 100vh;     
+    width: 100%;
+    /* overflow: hidden; */
+    font-family: 'Yantramanav', sans-serif;
+}
+
+
+
+.sidebar{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 850px;
+    width: 240px;
+    background: #000000;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo_gamegear .logo_gamegear_title{
+    display: flex;
+    height: 90px;
+    width: 100px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+    
+}
+
+.sidebar .logo_content .sidebar_catalog {
+    border-radius: 20px;
+    background-color: #8d62d2;
+    height: 50px;
+    /* text-align: center; */
+}
+
+.sidebar .logo_content .sidebar_catalog .sidebar_catalog_child{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 50px;
+    padding-left: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+
+.sidebar .sidebar_cataory{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 50px;
+    padding-left: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+}
+
+
+.sidebar ul{
+    margin-top: 20px;
+}
+
+.sidebar ul li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    line-height: 50px;
+
+}
+
+.sidebar ul li a{
+    color: #939399;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover{
+    background-color:#8d62d2 ;
+    color: #ffff;
+    border-radius: 20px;
+
+}
+
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.sidebar_social li{
+    display: inline-block;
+    padding: 30px 10px ;
+    /* padding-top: 20px; */
+
+}
+
+
+.sidebar_social li a{
+    color: #939399;
+    font-size: 30px;
+    letter-spacing: 15px;
+
+} 
+
+.sidebar_help a{
+    color: #939399;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.sidebar_help a:hover{
+    border-bottom: #8d62d2 solid 3px;
+    
+}
+
+.sidebar_help{
+    padding: 0 20px;
+}
+
+.sidebar_help .sidebar_help_contact {
+    border-right: solid 3px #939399;
+    padding-right:10px ;
+
+}
+
+.sidebar_help .sidebar_help_aboutus{
+    margin-left: 7px;
+}
+
+
+/* ============================nav======================================================= */
+.nav-formsearch-control{
+    border-radius: 5px;
+    
+}

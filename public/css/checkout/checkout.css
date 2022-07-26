@@ -1,0 +1,30 @@
+.body {
+    padding-bottom: 100px;
+}
+
+body {
+    background-color: #333333;
+}
+.size-form {
+    padding: 0 60px;
+}
+
+h3 {
+    padding: 30px 0;
+}
+.form-right {
+    border-left: 1px solid #4e4d4d;
+}
+.element {
+    margin: auto 0;
+}
+hr {
+    border-bottom: 0.1px solid #6b6b6b;
+}
+.text-total {
+    text-align: left;
+}
+.price {
+    text-align: right;
+}
+

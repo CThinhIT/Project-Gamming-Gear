@@ -1,0 +1,206 @@
+.bodyCont{
+    background-color: #1a0e22;
+}
+.video{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+#myVideo{
+    position: relative;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1000;
+    height: 830px;
+}
+.textBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.subPrimary{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.headingMain{
+    font-size: 31px;
+    letter-spacing: 4px;
+    display: block;
+    text-shadow: 2px 2px 0px black;
+}
+.subVideo{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+    display: block;
+    text-shadow: 2px 2px 0px black;
+}
+.sub{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+    display: inline;
+    text-shadow: 2px 2px 0px black;
+}
+.borderContact{
+    border-bottom: 1px solid #8a38f5;
+    width: 200px;
+    border-radius: 3px;
+}
+.borderContact1{
+    border-bottom: 1px solid #8a38f5;
+    width: 180px;
+    border-radius: 3px;
+}
+.add-info{
+    color: white;
+    font-weight: bold; 
+    margin-top: 56px;
+    margin-bottom: 15px;
+}
+.formContact{
+    margin-top: 70px;
+}
+.yourFb{
+    margin-top: 25px;
+}
+.comment{
+    margin-top: 28px;
+    width: 600px;
+    height: 200px;
+}
+.commentContact{
+    color: white;
+}
+.sendContact{
+    margin-top: 20px;
+}
+
+input,
+span,
+label{
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input.question, input.question1, input.question2{
+  font-size: 20px;
+  font-weight: 50;
+  color: white;
+  border-radius: 2px;
+  margin: 0;
+  border: none;
+  width: 90%;
+  background: rgba(0, 0, 0, 0);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+/* Underline and Placeholder */
+
+input.question + label, input.question1 + label, input.question2 + label{
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  border-top: 1px solid red;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  height: 0px;
+}
+
+input.question:focus + label, input.question1:focus + label, input.question2:focus + label{
+  width: 30%;
+}
+
+input.question:focus,
+input.question:valid, input.question1:focus,
+input.question1:valid, input.question2:focus,
+input.question2:valid{
+  padding-top: 85px;
+}
+
+input.question:focus + label > span,
+input.question:valid + label > span, input.question1:focus + label > span,
+input.question1:valid + label > span, input.question2:focus + label > span,
+input.question2:valid + label > span {
+  top: -100px;
+  font-size: 25px;
+  color: #8a38f5;
+}
+
+input.question:valid + label, input.question1:valid + label, input.question2:valid + label{
+  border-color: green;
+  width:100%;
+}
+
+input.question:invalid, input.question1:invalid, input.question2:invalid{
+  box-shadow: none;
+}
+
+input.question + label > span, input.question1 + label > span, input.question2 + label > span{
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  top: -66px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+
+input[type="submit"] {
+  -webkit-transition: opacity 0.2s ease, background 0.2s ease;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  display: block;
+  opacity: 0;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #EEE;
+}
+
+input[type="submit"]:active {
+  background: #999;
+}
+
+input.question:valid ~ input[type="submit"], input.question1:valid ~ input[type="submit"], input.question2:valid ~ input[type="submit"]{
+  -webkit-animation: appear 1s forwards;
+  animation: appear 1s forwards;
+}
+
+input.question:invalid ~ input[type="submit"], input.question1:invalid ~ input[type="submit"], input.question2:invalid ~ input[type="submit"]{
+  display: none;
+}
+
+@-webkit-keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+  

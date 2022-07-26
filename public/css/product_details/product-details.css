@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.product-details-child>.info-product {
+    width: 300px;
+    height: 750px;
+    background-color: #8d62d2;
+    position: relative;
+}
+
+.info-product .info-product-child {
+    position: absolute;
+    margin: 25px 25px;
+    width: 250px;
+    height: 250px;
+    background-color: #6035a1;
+    border-radius: 20px;
+}
+.product-details-child1{
+    position: relative;
+}
+.gamepad-img{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+}
+
+.product-details-child1 > .product-des{
+    padding-top: 450px;
+    padding-left: 60px;
+}
+
+.product-details-child1 > .product-des > h2 {
+    font-family: 'Anton', sans-serif;
+    /* font-weight:700; */
+}
+
+.product-details-child1 > .product-des > h4, h2>span {
+    color: #bdbdc4;
+}
+
+.product-details-child1 > .product-des > h6{
+    color: #605e5e;
+}
+
+.product-details-child1 > .product-des > h6 > span{
+    color: #bdbdc4;
+}
+
+
+.product-details-child1 > .product-des .price {
+    color: #543a7e;
+}
+
+.text-description{
+    position: relative;
+}
+
+.button-order{
+    position: absolute;
+    left: 340px;
+    top: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: #8d62d2;
+
+}
+
+.button-order > .text-button-order{
+    line-height: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.rotate {
+    opacity: 20%;
+    font-family: 'Anton', sans-serif;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    transform: translateX(-50%) translateY(170%) rotate(-90deg);
+}
+
+.select-color > .select-color1{
+    border-radius: 20px;
+    background-color: #494848;
+    width: 180px; 
+    height: 180px;
+    margin-bottom: 10px;
+}
+/* 
+.select-color > .select-color2{
+    margin: 10px 0px;
+}
+
+.select-color > .select-color3{
+    margin-bottom: 10px;
+} */
+
+/* .colors{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+} */
+
+/* .color{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border: 5px solid;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+/* .color[color="white"] {
+    background-color: white;
+    border-color: white;
+}
+
+.color[color="pink"] {
+    background-color: pink;
+    border-color: pink;
+}
+
+.color[color="blue"] {
+    background-color: blue;
+    border-color: blue;
+}
+
+.color[color="black"] {
+    background-color: black;
+    border-color: black;
+}
+
+.color.active{
+    border-color: #bdbdc4;
+} */
+
+.color.active{
+    background-color: #8d62d2;
+} 
+
+.gamepad-img{
+    opacity: 0;
+}
+
+.gamepad-img.show{
+    opacity: 1;
+}
+

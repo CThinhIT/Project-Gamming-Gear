@@ -1,0 +1,2 @@
+CREATE TABLE `project2`.`customers` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(100) NOT NULL , `email` VARCHAR(100) NOT NULL , `password` VARCHAR(100) NOT NULL , `phone` VARCHAR(50) NULL , `address` VARCHAR(100) NULL , `image` VARCHAR(100) NULL , `created_at` TIMESTAMP NULL , `updated_at` TIMESTAMP NULL , PRIMARY KEY (`id`), UNIQUE `email` (`email`)) ENGINE = InnoDB;
+ALTER TABLE customers ADD active INT(3) NULL AFTER image;

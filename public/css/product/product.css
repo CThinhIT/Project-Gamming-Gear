@@ -1,0 +1,33 @@
+.product_image_avatar{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product_image_details{
+    width: 100px;
+    /* height: 200px; */
+    object-fit: cover;
+}
+
+.choose-cat{
+    position: relative;
+}
+
+.choose-cat-child{
+    position: absolute;
+    top: 31px;
+    left: 10px;
+}
+
+/* p.text-sm.text-gray-700.leading-5{
+    display: none;
+}
+
+div.flex.justify-between.flex-1{
+    display: none;
+}
+
+nav svg{
+    height: 20px;
+} */

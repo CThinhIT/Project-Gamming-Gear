@@ -1,0 +1,25 @@
+/* body{
+    font-family: "Poppins", sans-serif !important;
+  } */
+.item-order {
+    font-weight: lighter;
+}
+.cartWish {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+th td {
+    color: white;
+    /* font-family: "Poppins", sans-serif ; */
+    font-size: 20px;
+    height: 100px;
+    padding: auto;
+}
+table {
+    color: white;
+    background-color: rgba(112, 78, 168, 0);
+    border-top: 0px;
+
+    border-top: hidden;
+}

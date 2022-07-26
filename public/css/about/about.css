@@ -1,0 +1,394 @@
+/* HEADER */
+.category {
+  border: solid;
+}
+
+.divImage {
+  text-align: center;
+}
+
+.flowerImage {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: solid lightgrey medium;
+}
+
+.detailImage {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+/* .navbar{
+  /* background-image: linear-gradient(90deg, #fff6a2, #fc8a15, #AB3E16); */
+/* background-color: burlywood; */
+
+/* .list{
+  
+  position: absolute;
+  right: 20px;
+} */
+.dropdown-item {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.dropdown-item:hover {
+  background-color: #ccc;
+  color: white
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ccc;
+}
+
+.nav-link {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  font-size: 17px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.nav-link-3::before,
+.nav-link-2::after {
+  position: absolute;
+  content: "";
+  left: -5px;
+  border-left: 3px solid #ccc;
+  height: 17px;
+  top: 50%;
+  transform: translateY(-60%);
+}
+
+.nav-link:hover {
+  background-color: #ccc;
+  border-radius: 5%;
+  color: white;
+}
+
+.navbar-brand {
+  position: relative;
+  color: burlywood;
+  font-size: 30px;
+  /* padding-top: 20px; */
+  font-family: 'Lobster', cursive;
+  /* pointer-events:none; */
+  margin-left: 20px;
+  /* background: -webkit-linear-gradient(burlywood, #ec920b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.navbar-brand:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #ec920b;
+}
+
+.navbar-toggler-icon:active {
+  border: rgb(204, 187, 187);
+}
+
+.navbar-toggler {
+  background-color: burlywood;
+}
+
+.search {
+  margin: 0 70px;
+  /* text-align: center; */
+  position: relative;
+}
+
+.icon-cart {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  font-size: 22px;
+  color: #88746a;
+}
+
+.icon-bell {
+  position: absolute;
+  right: 85px;
+  top: 25px;
+  font-size: 22px;
+  color: #88746a;
+}
+
+.control:focus {
+  box-shadow: none;
+  border: #fc8a15 solid;
+}
+
+.btn {
+  background-color: #fc8a15;
+}
+
+.input-group-text {
+  background-color: #fc8a15;
+  border: #fc8a15 solid;
+}
+
+.icon-search {
+  font-size: 15px;
+}
+
+
+.menu {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/* HEADER */
+/* About Start */
+.about-me-2 {
+
+  margin-left: 25px;
+}
+
+.about-me-1 {
+  margin-right: 200px;
+  margin-left: 85px;
+}
+
+.about-h1 {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.about-letter-a1 {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Saira Condensed', sans-serif;
+
+
+
+}
+
+.about-content-a2 {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 50px;
+
+}
+
+.about-letter-a3 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #f6a834;
+
+}
+
+
+.about-background-a5 {
+  background-image: url('../../assets/images/about/backreal.png');
+  background-repeat: no-repeat;
+
+
+}
+
+/* body {
+  background-color: #1a0e22;
+} */
+a:hover{
+  text-decoration: none;
+}
+
+.name-team{
+  text-align: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 50%;
+}
+
+
+/* About End */
+/* FOOTER */
+/* .footer {
+    /* background-color: #fc8a15; */
+
+.row-footer {
+  height: auto;
+
+  background-color: #fc8a15;
+  /* box-shadow: 5px 10px 18px #888888; */
+}
+
+.footer-content1 {
+  /* background-color: #fc8a15; */
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-content1 .header1-footer {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.footer-content1 .para {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(241, 227, 227);
+}
+
+.icon-mobile {
+  color: white;
+}
+
+.icon-mail {
+  color: white;
+}
+
+input[type=email] {
+  margin-top: 20px;
+  border-radius: 25px;
+  height: 40px;
+  width: 250px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit] {
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer-content2 {
+  margin-left: 50px;
+  margin-top: 50px;
+
+}
+
+.footer-content2 .header2-footer {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.footer-content2 ul {
+  list-style-type: none;
+}
+
+.list-review .review2,
+.list-review .review3,
+.list-review .review1 {
+  margin-left: -40px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(241, 227, 227);
+}
+
+.footer-content3 {
+  margin-left: 50px;
+  margin-top: 50px;
+  /* margin-bottom: auto; */
+}
+
+.footer-content3 .header3-footer {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.row-ins1,
+.row-ins2 {
+  margin-left: 5px;
+}
+
+.ins-img1 {
+  background-image: url("makeup9.jpg");
+  background-position: center;
+  height: 100px;
+  border: solid #fc8a15 5px;
+}
+
+.ins-img2 {
+  background-image: url("makeup10.jpg");
+  background-position: -250px -300px;
+  height: 100px;
+  border: solid #fc8a15 5px;
+}
+
+.ins-img3 {
+  background-image: url("makeup12.jpg");
+  background-position: center;
+  height: 100px;
+  border: solid #fc8a15 5px;
+}
+
+.ins-img4 {
+  background-image: url("makeup11.jpg");
+  background-position: center;
+  height: 100px;
+  border: solid #fc8a15 5px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* khi cuộn trang ảnh ko lấp nav */
+  /* overflow: hidden; */
+  box-shadow: 1px 1px 10px rgb(241, 240, 240);
+  background-color: white;
+}
+
+@media (max-width: 300px) {
+
+  .about-me,
+  .about-me1 {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 739px) and (max-width: 1300px) {
+  .about-me {
+    margin-left: -190px;
+  }
+
+  .content-about-me {
+    margin-left: -200px;
+  }
+
+  .content-about-me1 {
+    margin-right: -200px;
+  }
+}
+
+.nav-about.active,
+.nav-about:active {
+  margin-right: 5px;
+  text-decoration: none;
+  background-color: #ccc;
+  border-radius: 2px;
+}
+
+.container-fluid {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+/* FOOTER */
