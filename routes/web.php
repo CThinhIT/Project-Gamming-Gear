@@ -31,6 +31,9 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
@@ -63,7 +66,7 @@ Route::get('/login', 'CustomerController@login')->name('login');
 
 Route::get('/contactUs', [HomeController::class, 'contactUs'])->name('contactUs');
 
-Route::put('customer_block','CustomerController@handleAccount')->name('register.handleAccount');
+Route::put('customer_block', 'CustomerController@handleAccount')->name('register.handleAccount');
 
 Route::get('profile', [CustomerController::class, 'profile'])->name('profile');
 
@@ -90,7 +93,7 @@ Route::post('/sendemail/send', [CheckOutController::class, 'checkoutOrder']);
 Route::get('/checkout', [CheckOutController::class, 'index'])->name('basket.checkout');
 
 Route::get('/logout', [AdminLoginController::class, 'logout']);
-Route::get('/about',[HomeController::class,'about'])->name('about');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::prefix('admin')->group(function () {
 
     Route::get('/', [AdminLoginController::class, 'login']);
@@ -138,9 +141,9 @@ Route::prefix('admin')->group(function () {
 
         Route::get('/delete/{id}', [AdminProductController::class, 'delete'])->name('product.delete');
 
-        Route::get('/product-unactive/{id}' , [AdminProductController::class, 'unactive'])->name('product.unactive');
+        Route::get('/product-unactive/{id}', [AdminProductController::class, 'unactive'])->name('product.unactive');
 
-        Route::get('/product-active/{id}' , [AdminProductController::class, 'active'])->name('product.active');
+        Route::get('/product-active/{id}', [AdminProductController::class, 'active'])->name('product.active');
 
         // Route::post('/search-product', [AdminProductController::class, 'render'])->name('product.search');
 
