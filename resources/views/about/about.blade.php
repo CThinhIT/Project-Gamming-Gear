@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{asset('css/allPage.css')}}">
   <!-- <link rel="stylesheet" href="indexresponsive.css">
   <link rel="stylesheet" href="fonts/themify-icons-font/themify-icons/themify-icons.css"> -->
-  <link rel="icon" type="image/x-icon"  href="{{asset('assets/images/img/sidebar/logo1.png')}}">
+  <link rel="icon" type="image/x-icon" href="{{asset('assets/images/img/sidebar/logo1.png')}}">
 
 
 
@@ -77,10 +77,10 @@
   <div class="container">
     <div class="about-h1">
       <h1 style="text-align: center; color: white;">ABOUT US</h1>
-      
-        <p  style="text-align: center; color: white;"> <a href="{{route('home')}}">HOME </a> >> ABOUT</p>
-      
-      
+
+      <p style="text-align: center; color: white;"> <a href="{{route('home')}}">HOME </a> >> ABOUT</p>
+
+
     </div>
     <!-- <div class="about-letter-a3">
     <a class="title-about" href="../index.html">Beauty Services</a><span class="title-about1" style="font-size: 35px; position: relative;">ABOUT US</span>
@@ -129,7 +129,7 @@
               <h2>WE'RE THE BEST<br>GAMING <b style="color: goldenrod;">COMPANY</b></h2><br>
               <p>Gaming Gear with a young and dynamic team of companies has always kept up with the new trend of the world right from the beginning of its operation. This helps to realize the ideas and needs of customers in the most reasonable way.<br><br>
 
-              Gaming Gear always tries to develop in terms of quality and service, managing goods with 100% genuine and binding origin with the most economical price.Sincere thanks to customers who have trusted and supported Gaming Gear during the past time and are always ready to wait for the return of customers. We are continuing day by day, hour by hour trying to develop to bring the best products to hand Game Gear<br><br>
+                Gaming Gear always tries to develop in terms of quality and service, managing goods with 100% genuine and binding origin with the most economical price.Sincere thanks to customers who have trusted and supported Gaming Gear during the past time and are always ready to wait for the return of customers. We are continuing day by day, hour by hour trying to develop to bring the best products to hand Game Gear<br><br>
 
                 © Criteria of fun and friendliness.<br>
                 © Reasonable price, prestige is first.<br>
@@ -153,38 +153,38 @@
 
           <div class="row">
             <div class="col-sm-4">
-            <h4 class="name-team">CEO</h4>
+              <h4 class="name-team">CEO</h4>
               <img class="about-me-1" src="{{asset('assets/images/about/thai.jpg')}}" alt="" width="170px" height="170px " style="border-radius:270px;">
-              
-              
+
+
             </div>
             <div class="col-sm-4">
-            <h4 class="name-team">COO</h4>
+              <h4 class="name-team">COO</h4>
               <img class="about-me-1" src="{{asset('assets/images/about/trong_.jpg')}}" alt="" width="170px" height="170px" style="border-radius:270px;">
-            
-              
+
+
             </div>
             <div class="col-sm-4">
-            <h4 class="name-team">CMO</h4>
+              <h4 class="name-team">CMO</h4>
               <img class="about-me-1" src="{{asset('assets/images/about/thinh.jpg')}}" alt="" width="170px" height="170px" style="border-radius:270px;">
-            
-             
+
+
             </div>
             <div class="col-sm-6">
               <div class="row">
                 <div class="col-sm-6"></div>
-                <div class="col-sm-6" >
-                <h4 class="name-team">CHRO</h4>
+                <div class="col-sm-6">
+                  <h4 class="name-team">CHRO</h4>
                   <img class="about-me-2" src="{{asset('assets/images/about/dung_.jpg')}}" alt="" width="170px" height="170px" style="border-radius:270px;">
-                 
+
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="col-sm-6">
-              <h4 class="name-team">COORDINATOR</h4>
+                <h4 class="name-team">COORDINATOR</h4>
                 <img class="about-me-2" src="{{asset('assets/images/about/thuan_.jpg')}}" alt="" width="170px" height="170px" style="border-radius:270px;">
-               
+
               </div>
               <div class="col-sm-6">
 

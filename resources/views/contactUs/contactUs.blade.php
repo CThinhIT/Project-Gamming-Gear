@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="{{asset('css/contact/contactUs.css')}}" />
     <link rel="stylesheet" href="{{asset('css/contact/animate.css')}}" />
     <link rel="stylesheet" href="{{asset('css/contact/footerContact.css')}}" />
-    <link rel="icon" type="image/x-icon"  href="{{asset('assets/images/img/sidebar/logo1.png')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/images/img/sidebar/logo1.png')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{asset('js/wow.min.js')}}"></script>
-    <script>new WOW().init();</script>
+    <script>
+        new WOW().init();
+    </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -153,17 +155,18 @@
     </div>
     <!-- Footer End -->
     <script>
-        $(document).ready(function () {
-        $("#send").click(function (e) {
-          e.preventDefault();
-          Swal.fire({
-            title: "Thank you for your feedback 😍 Have a nice day!",
-            showConfirmButton: true,
-          }).then(function (){
-            window.location.href = "{{route('home')}}";
-          });
+        $(document).ready(function() {
+            $("#send").click(function(e) {
+                e.preventDefault();
+                Swal.fire({
+                    title: "Thank you for your feedback 😍 Have a nice day!",
+                    showConfirmButton: true,
+                }).then(function() {
+                    window.location.href = "{{route('home')}}";
+                });
+            });
         });
-      });
     </script>
 </body>
+
 </html>
