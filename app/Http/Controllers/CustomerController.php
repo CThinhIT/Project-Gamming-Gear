@@ -85,7 +85,6 @@ class CustomerController extends Controller
         
 
         $customer->phone = $request->phone;
-        $customer->address = $request->address;
         $customer->active = 1;
         $customer->save();
         return redirect()->route('login');
