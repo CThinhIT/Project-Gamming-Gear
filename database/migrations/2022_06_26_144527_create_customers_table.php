@@ -19,6 +19,7 @@ return new class extends Migration
             $table->String('email');
             $table->String('password');
             $table->String('phone');
+            $table->String('address');
             $table->boolean('active');
             $table->timestamps();
         });
