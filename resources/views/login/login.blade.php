@@ -24,7 +24,7 @@
             <div class="title-form">
                 <a href="{{route('home')}}"> <img class="" style="width: 50px; height: 50px;  margin-bottom: 10px" src={{asset('assets/images/img/sidebar/logo1.png')}}
                     alt=""></a>
-                <span>Login</span>
+                <span>LoginAA</span>
             </div>
             <div class="form">
                 <form action="{{route('processLogin')}}" method="GET">
